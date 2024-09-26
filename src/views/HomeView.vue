@@ -6,6 +6,4 @@
   </main>
 </template>
 
-<script setup lang="ts">
-import { HoppButtonPrimary } from '@hoppscotch/ui'
-</script>
+<script setup lang="ts"></script>

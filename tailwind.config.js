@@ -1,8 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+import preset from '@hoppscotch/ui/ui-preset'
+
 export default {
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  theme: {
-    extend: {}
-  },
-  plugins: []
+  content: ['src/**/*.{vue,html}'],
+  presets: [preset]
 }
